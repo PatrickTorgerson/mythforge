@@ -1,0 +1,18 @@
+.{
+    .name = "mythforge",
+    .version = "0.0.0",
+    .minimum_zig_version = "0.12.0",
+    .dependencies = .{
+        .godot_zig = .{
+            .url = "https://github.com/godot-zig/godot-zig/archive/b27d924cb0f341554fecb0ede2636a9bfdc05498.tar.gz",
+            .hash = "1220ddd1295a4a224219982477ac2cb7fbdef195bfec441ca596e624aa2c34ee955f",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+    },
+}
